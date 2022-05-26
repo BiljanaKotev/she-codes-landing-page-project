@@ -1,11 +1,11 @@
 .main {
-  margin: 0 auto;
   background: radial-gradient(
     circle at 10% 20%,
     rgb(246, 187, 187) 0%,
     rgb(249, 219, 217) 90%
   );
-  width: 700px;
+  margin: 0 auto;
+  width: 43.75rem;
 }
 
 body {
@@ -13,35 +13,36 @@ body {
 }
 
 h1 {
-  text-align: center;
-  font-size: 60px;
   font-family: "Catamaran", sans-serif;
-  padding-top: 40px;
+  font-size: 3.75rem;
+  padding-top: 2.5rem;
+  text-align: center;
 }
 
 h2 {
-  text-align: center;
-  font-size: 30px;
-  font-family: "Dancing Script", cursive;
-  font-weight: 100;
   color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.875rem;
+  font-weight: 100;
+  text-align: center;
+ 
 }
 
 hr {
   border-style: none;
   border-top: dotted;
-  border-width: 7px;
+  border-width: 0.438rem; 
+  margin-top: 3.75rem;
   width: 5%;
-  margin-top: 60px;
 }
 
 p {
-  text-align: center;
-  font-size: 18px;
-  font-family: "Catamaran", sans-serif;
   color: gray;
-  margin: 5% 10%;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.125rem;
   line-height: 2;
+  margin: 5% 10%;
+  text-align: center;
 }
 
 .herb {
@@ -51,20 +52,20 @@ p {
 }
 
 img {
-  display: block;
-  width: 40vw;
-  margin: 0 auto;
   border-radius: 60% 40% 40% 20%;
+  display: block;
+  margin: 0 auto;
+  width: 40vw;
 }
 
 button {
-  display: block;
-  margin: 50px auto;
   border: none;
-  padding: 15px 25px;
-  font-size: 18px;
   border-radius: 4%;
   box-shadow: rgba(0, 0, 0, 0.16) 3px 5px 10px;
+  display: block;
+  font-size: 18px;
+  margin: 3.125rem auto;
+  padding: 0.938rem 1.563rem;
   transition: all 200ms ease;
 }
 
@@ -74,13 +75,13 @@ button:hover {
 }
 
 .mug-icon {
+  margin-bottom: 0.313rem;
   vertical-align: middle;
-  margin-bottom: 5px;
 }
 
 .footer {
   font-family: "Catamaran", sans-serif;
-  text-align: center;
   font-weight: 500;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
+  text-align: center;
 }
